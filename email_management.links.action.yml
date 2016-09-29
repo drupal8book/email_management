@@ -1,0 +1,6 @@
+entity.email_provider.add_form:
+  route_name: 'entity.email_provider.add_form'
+  title: 'Add Email provider'
+  appears_on:
+    - entity.email_provider.collection
+

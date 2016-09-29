@@ -1,0 +1,5 @@
+name: Email Management
+type: module
+description: Module used to manage transactional e-mail providers
+core: 8.x
+package: Custom

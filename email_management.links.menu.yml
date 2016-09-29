@@ -1,0 +1,8 @@
+# Email provider menu items definition
+entity.email_provider.collection:
+  title: 'Email providers'
+  route_name: entity.email_provider.collection
+  description: 'List Email provider (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

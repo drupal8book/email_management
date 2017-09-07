@@ -1,0 +1,9 @@
+{
+    "name": "drupal/email_management",
+    "description": "Unified transaction email services provider management m.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "require": {
+        "mailgun/mailgun-php": "^2.1"
+    }
+}

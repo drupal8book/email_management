@@ -1,0 +1,11 @@
+
+email_management.email_provider_settings_form:
+  path: '/admin/config/email_management'
+  defaults:
+    _form: '\Drupal\email_management\Form\EmailProviderSettingsForm'
+    _title: 'EmailProviderSettingsForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

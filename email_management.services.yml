@@ -1,0 +1,5 @@
+services:
+  mailgun.service:
+    class: Drupal\email_management\MailgunService
+    arguments: ['@config.factory']
+

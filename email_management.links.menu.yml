@@ -6,3 +6,10 @@ entity.email_provider.collection:
   parent: system.admin_structure
   weight: 99
 
+email_management.email_provider_settings_form:
+  title: 'mail management settings'
+  route_name: email_management.email_provider_settings_form
+  description: 'manage e-mail providers'
+  parent: system.admin_config_system
+  weight: 99
+

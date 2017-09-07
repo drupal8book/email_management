@@ -80,4 +80,18 @@ class EmailProvider extends ConfigEntityBase implements EmailProviderInterface {
   public function api_key() {
     return $this->api_key;
   }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function id() {
+    return $this->id;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function label() {
+    return $this->label;
+  }
 }
